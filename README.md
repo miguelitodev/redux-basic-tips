@@ -1,54 +1,70 @@
-# React + TypeScript + Vite
+# Redux Toolkit Project - From Concept to Practice 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built based on the tutorial **"Redux from CONCEPT to PRACTICE! Migrating from Old Redux to Redux Toolkit (Tutorial)"** by Coffstack. The goal is to demonstrate the implementation of Redux in a ReactJS (or React Native) app, exploring both Old Redux and Redux Toolkit, and migrating from one to the other in a simple and practical way. 🔄
 
-Currently, two official plugins are available:
+## What will you learn? 🤓
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Core Redux concepts**: Action, Reducer, Store, Dispatch, Global State, and the Redux Data Flow. 🔄
+- How to implement Redux in your ReactJS or React Native app. ⚛️
+- How to use Old Redux with HOC `connect`, `mapStateToProps`, and `mapDispatchToProps`. 🔌
+- How to migrate to Redux Toolkit using `createSlice` and `configureStore`. 🔧
+- How to use the `useSelector` and `useDispatch` hooks instead of the old Redux. 🎣
 
-## Expanding the ESLint configuration
+## Technologies Used 🛠️
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **ReactJS** ⚛️
+- **Old Redux and Redux Toolkit** 🔴🔧
+- **React-Redux** (for integrating Redux with React) 🔄
+- **JavaScript / TypeScript** 💻
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## How to Run the Project 🏃‍♂️
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/miguelitodev/redux-basic-tips.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Navigate to the project directory:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+cd redux-basic-tips
 ```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm start
+```
+
+5. Open your browser and go to `http://localhost:3000` to see the project in action. 🌐
+
+## What does the tutorial cover? 📚
+
+This tutorial covers everything from the basic concepts of Redux to migrating to Redux Toolkit, with practical examples and detailed explanations of each part of the process. 📖
+
+Here are the topics covered in the video:
+
+- What is Redux and its data flow? 🔄
+- How Old Redux works, including HOCs `connect`, `mapStateToProps`, and `mapDispatchToProps`. 🔌
+- Migrating to Redux Toolkit with `createSlice` and `configureStore`. 🛠️
+- How to use `useSelector` and `useDispatch` hooks. 🎣
+- Backward compatibility between Old Redux and Redux Toolkit. 🔄
+
+**Watch the full video**: [Redux from CONCEPT to PRACTICE! Migrating from Old Redux to Redux Toolkit (Tutorial)](https://youtu.be/HGMd3dbB-lM) 🎥
+
+## Useful Links 🌐
+
+- [GitHub](https://github.com/miguelitodev) 🖥️
+- [My Portfolio](https://miguelito.dev) 💼
+- [Instagram](https://www.instagram.com/miguelitodev) 📸
+
+---
+
+Let me know if you need further adjustments or more emojis! 😄
